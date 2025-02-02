@@ -19,6 +19,6 @@ Fig: Number of sales and order
 </br>
 </br>
 2. Overall Performance by Sub Category
-<img align="center" width="500" height="160" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/Code%202.png">
+<img align="center" width="200" height="160" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/Code%202.png">
 
 
