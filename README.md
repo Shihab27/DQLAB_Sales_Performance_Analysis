@@ -9,3 +9,5 @@ The dataset contains sales transaction data from DQLab Store, covering orders pl
 **Product Information:** product_category, product_sub_category <br/>
 The data allows for analyzing sales performance, discount effectiveness, and product trends over time.
 </p>
+</br>
+<p> 1. Overall performance DQLab Strore from 2009 till 2012 for Order numbers and total sales which order status is finished. </p>
