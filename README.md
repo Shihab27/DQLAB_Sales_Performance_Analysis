@@ -11,7 +11,7 @@ The data allows for analyzing sales performance, discount effectiveness, and pro
 </p>
 </br>
 1. Overall performance DQLab Strore from 2009 till 2012 for Order numbers and total sales which order status is finished.</br>
-<img align="right" width="500" height="400" src="(https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/Code%201.png)">
+<img align="right" width="500" height="400" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/Code%201.png">
 
 
 
