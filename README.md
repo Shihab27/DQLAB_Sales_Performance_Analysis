@@ -23,4 +23,4 @@ Fig: Number of sales and order
 <img align="center" width="600" height="130" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/Code%202.png">
 Output:
 <img align="center" width="600" height="700" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/output2.png">
-
+Fig: Sales By Sub Category on 2011 & 2012
