@@ -25,7 +25,7 @@ GROUP BY 1;
 </br>
 Output:
 <img align="center" width="600" height="160" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/output1.png">
-Fig: Number of sales and order
+Fig 1: Number of sales and order
 </br>
 </br>Full income received by DQLab is tracked over time. The best whole income had been 2009 and it does not get greater after that. But distinctive from the variety of order income, it goes trip barring in 2011. Although the trade is not too widespread over the years.
 </br>
@@ -43,7 +43,7 @@ ORDER BY years, sales DESC;
 </br>
 Output:
 <img align="center" width="600" height="700" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/output2.png">
-Fig: Sales By Sub Category on 2011 & 2012
+Fig 2: Sales By Sub Category on 2011 & 2012
 </br>
 </br>
 </br>
@@ -72,6 +72,7 @@ Output:
 </br>The overview leads us to the understanding that the burn prices are at a rate of more than 4.5% over the period of every 12 months as an average. This explains the promotional campaigns so far have not been able to curb the burn rate to a maximum of 4.5%. By grouping these questions to each product, we can solve which product was overwhelmingly influential in increasing the burn rate beyond expectations.
 </br>
 </br>
+</br>
 4. Promotion Effectiveness and Efficiency by using Product Sub Category
 </br>
 </br>
@@ -88,7 +89,7 @@ ORDER BY 4 DESC;
 
 </br>
 <img align="center" width="750" height="450" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/output4.png">
-Fig: Burn Rate by sub-category of product
+Fig 4: Burn Rate by sub-category of product
 
 </br>
 </br>
@@ -96,6 +97,7 @@ Only five subcategories of products feature a burn charge of under 4.5%. As demo
 </br>
 </br>
 What is very interesting is that from these findings, we note that there are still many subcategories of products which have a burn charge greater than 4.5%.
+</br>
 </br>
 </br>
 5. Customers Transactions per Year
@@ -115,7 +117,7 @@ The calculations regarding the clients’ variety do not integrate the reproduct
 </br>
 Output:
 <img align="center" width="400" height="200" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/output5.png">
-Fig: Number of customers by year
+Fig 5: Number of customers by year
 </br>
 </br>
 The diversity of clients is not changing significantly overall. However, there was no drastic drop in customers, which is a welcome relief. The number of clients seems to fluctuate around the 580–590 mark.
@@ -143,7 +145,7 @@ In order to collect new customers each year, our main objective is to analyze fi
 </br>
 Output:
 <img align="center" width="400" height="200" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/output6.png">
-Fig: Number of new customers by year
+Fig 6: Number of new customers by year
 </br>
 </br>
-The acquisition of new customers has drastically reduced over the last 12 months. The only new clients we received in 2012 alone was 11. But as we look back at the previous data, the amount of clients does not appear to increase. (fig.9) This indicates that a lot of our old customers are still returning to DQLab Store to make purchases without the new clients base dropping.
+The acquisition of new customers has drastically reduced over the last 12 months. The only new clients we received in 2012 alone was 11. But as we look back at the previous data, the amount of clients does not appear to increase. This Fig 6 indicates that a lot of our old customers are still returning to DQLab Store to make purchases without the new clients base dropping.
