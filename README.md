@@ -121,7 +121,9 @@ Fig: Number of customers by year
 The diversity of clients is not changing significantly overall. However, there was no drastic drop in customers, which is a welcome relief. The number of clients seems to fluctuate around the 580–590 mark.
 </br>
 </br>
+</br>
 6. New Customer Over the Years
+</br>
 </br>
 
 ```
