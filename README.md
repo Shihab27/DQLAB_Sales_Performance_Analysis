@@ -6,8 +6,28 @@ The dataset contains sales transaction data from DQLab Store, covering orders pl
 **Sales Metrics:** order_quantity, sales, discount, discount_value <br/>
 **Product Information:** product_category, product_sub_category <br/></br>
 The data allows for analyzing sales performance, discount effectiveness, and product trends over time.
-
 </br>
+</br>
+</br>
+**Dataset Brief** </br>
+All facts for this mission are saved in the desk known as dqlab_store_sales. You can see the look of the dataset under :
+
+```
+#table information
+ DESC clean_data;
+ 
+#first 5 records
+ SELECT *
+ FROM clean_data
+ LIMIT 5;
+```
+<img align="center" width="550" height="300" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/table_info.png">
+Fig: clean_data Table Information
+</br>
+<img align="center" width="550" height="300" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/first_5_rows.png">
+</br>
+</br>
+
 1. Overall performance DQLab Strore from 2009 till 2012 for Order numbers and total sales which order status is finished.</br>
 </br>
 
