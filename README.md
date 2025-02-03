@@ -101,6 +101,7 @@ What is very interesting is that from these findings, we note that there are sti
 5. Customers Transactions per Year
 </br>
 </br>
+
 ```
 SELECT YEAR(order_date) years,
         COUNT(DISTINCT customer) 'number of customers'
@@ -113,8 +114,7 @@ The calculations regarding the clients’ variety do not integrate the reproduct
 </br>
 </br>
 Output:
-<img align="center" width="750" height="450" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/output5.png">
-</br>
+<img align="center" width="400" height="200" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/output5.png">
 Fig: Number of customers by year
 </br>
 </br>
@@ -140,7 +140,7 @@ In order to collect new customers each year, our main objective is to analyze fi
 </br>
 </br>
 Output:
-<img align="center" width="750" height="450" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/output6.png">
+<img align="center" width="400" height="200" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/output6.png">
 Fig: Number of new customers by year
 </br>
 </br>
