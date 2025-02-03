@@ -135,3 +135,13 @@ SELECT YEAR(first_order) years,
         GROUP BY 1) first
  GROUP BY 1;
 ```
+</br>
+In order to collect new customers each year, our main objective is to analyze first time transactions. This can be obtained by using the MIN() function on first_order and counting the number of clients.
+</br>
+</br>
+Output:
+<img align="center" width="750" height="450" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/output6.png">
+Fig: Number of new customers by year
+</br>
+</br>
+The acquisition of new customers has drastically reduced over the last 12 months. The only new clients we received in 2012 alone was 11. But as we look back at the previous data, the amount of clients does not appear to increase. (fig.9) This indicates that a lot of our old customers are still returning to DQLab Store to make purchases without the new clients base dropping.
