@@ -24,7 +24,9 @@ All facts for this mission are saved in the desk known as dqlab_store_sales. You
 <img align="center" width="550" height="300" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/table_info.png">
 Fig: clean_data Table Information
 </br>
-<img align="center" width="550" height="300" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/first_5_rows.png">
+</br>
+<img align="center" width="850" height="160" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/first_5_rows.png">
+Fig: First 5 rows appearance of clean_data table
 </br>
 </br>
 
@@ -43,7 +45,7 @@ GROUP BY 1;
 ```
 </br>
 Output:
-<img align="center" width="550" height="160" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/output1.png">
+<img align="center" width="450" height="130" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/output1.png">
 Fig 1: Number of sales and order
 </br>
 </br>Full income received by DQLab is tracked over time. The best whole income had been 2009 and it does not get greater after that. But distinctive from the variety of order income, it goes trip barring in 2011. Although the trade is not too widespread over the years.
