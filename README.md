@@ -23,7 +23,7 @@ GROUP BY 1;
 ```
 </br>
 Output:
-<img align="center" width="600" height="160" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/output1.png">
+<img align="center" width="550" height="160" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/output1.png">
 Fig 1: Number of sales and order
 </br>
 </br>Full income received by DQLab is tracked over time. The best whole income had been 2009 and it does not get greater after that. But distinctive from the variety of order income, it goes trip barring in 2011. Although the trade is not too widespread over the years.
@@ -144,7 +144,7 @@ In order to collect new customers each year, our main objective is to analyze fi
 </br>
 </br>
 Output:
-<img align="center" width="400" height="200" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/output6.png">
+<img align="center" width="350" height="180" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/output6.png">
 Fig 6: Number of new customers by year
 </br>
 </br>
