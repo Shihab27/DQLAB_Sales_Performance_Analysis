@@ -87,4 +87,12 @@ ORDER BY 4 DESC;
 ```
 
 </br>
-<img align="center" width="700" height="400" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/output4.png">
+<img align="center" width="750" height="450" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/output4.png">
+Fig: Burn Rate by sub-category of product
+
+</br>
+</br>
+Only five subcategories of products feature a burn charge of under 4.5%. As demonstrated on the first five rows, it starts with Rubber Bands and progresses to Telephones and Communication. While on DQLab Store, the labels have greater than 0.02% from the most anticipated burn charge price from the DQLab Store.
+</br>
+</br>
+What is very interesting is that from these findings, we note that there are still many subcategories of products which have a burn charge greater than 4.5%.
