@@ -35,11 +35,8 @@ Fig: Number of sales and order
 
 
 ```
-SELECT YEAR(order_date) as years,
-        product_sub_category,
-        sum(sales) as sales
-FROM dqlab_sales_store
-WHERE YEAR(order_date) BETWEEN 2011 AND 2012 AND order_status = 'Order Finished'
+SELECT year(order_date) years, product_sub_category, SUM(sales) sales FROM clean_data 
+WHERE year(order_date) BETWEEN 2011 AND 2012 AND order_status = 'Order Finished'
 GROUP BY years, product_sub_category
 ORDER BY years, sales DESC;
 ```
@@ -59,7 +56,7 @@ SELECT YEAR(order_date) years,
         SUM(sales) sales,
         SUM(discount_value) 'promotion_value',
         ROUND( SUM(discount_value)*100/SUM(sales), 2) 'burn_rate_percentage'
- FROM dqlab_sales_store
+ FROM clean_data
  WHERE order_status = 'Order Finished'
  GROUP BY 1;
 ```
@@ -78,3 +75,16 @@ Output:
 4. Promotion Effectiveness and Efficiency by using Product Sub Category
 </br>
 </br>
+
+```
+SELECT YEAR(order_date) years, product_category, product_sub_category, 
+SUM(sales) sales, SUM(discount_value) Promotion_Value,
+ROUND(SUM(discount_value)*100/SUM(sales),2) 'Burn_Rate_Percentage'
+FROM clean_data
+WHERE YEAR(order_date) = 2012 AND order_status = 'Order Finished'
+GROUP BY 3, 2, 1
+ORDER BY 4 DESC;
+```
+
+</br>
+<img align="center" width="400" height="100" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/output4.png">
