@@ -87,4 +87,4 @@ ORDER BY 4 DESC;
 ```
 
 </br>
-<img align="center" width="400" height="100" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/output4.png">
+<img align="center" width="700" height="400" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/output4.png">
