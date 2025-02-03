@@ -33,5 +33,9 @@ Fig: Sales By Sub Category on 2011 & 2012
 </br>
 <img align="center" width="600" height="130" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/Code%203.png">
 </br>
-Throughout this project, burn rate evaluation is used for determining the effectiveness and effectivity of promotions. It does this by evaluating the total of promoting cost to that of completed sales. Here, DQLab hopes that the burn price will not exceed 4.5%. Enumerating how to calculate burn price is detailed below :
-<img align="center" width="600" height="700" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/formula1.png">
+Throughout this project, burn rate evaluation is used for determining the effectiveness and effectivity of promotions. It does this by evaluating the total of promoting cost to that of completed sales. Here, DQLab hopes that the burn price will not exceed 4.5%. Enumerating how to calculate burn price is detailed below : </br>
+<img align="center" width="400" height="100" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/formula1.png">
+</br>
+Output:
+<img align="center" width="600" height="130" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/output3.png">
+</br>The overview leads us to the understanding that the burn prices are at a rate of more than 4.5% over the period of every 12 months as an average. This explains the promotional campaigns so far have not been able to curb the burn rate to a maximum of 4.5%. By grouping these questions to each product, we can solve which product was overwhelmingly influential in increasing the burn rate beyond expectations.
