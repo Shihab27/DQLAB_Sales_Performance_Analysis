@@ -96,3 +96,15 @@ Only five subcategories of products feature a burn charge of under 4.5%. As demo
 </br>
 </br>
 What is very interesting is that from these findings, we note that there are still many subcategories of products which have a burn charge greater than 4.5%.
+</br>
+</br>
+5. Customers Transactions per Year
+</br>
+
+```
+SELECT YEAR(order_date) years,
+        COUNT(DISTINCT customer) 'number of customers'
+ FROM clean_data
+ WHERE order_status = 'Order Finished'
+ GROUP BY 1;
+```
