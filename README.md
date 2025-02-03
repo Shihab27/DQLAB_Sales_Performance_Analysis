@@ -100,11 +100,38 @@ What is very interesting is that from these findings, we note that there are sti
 </br>
 5. Customers Transactions per Year
 </br>
-
+</br>
 ```
 SELECT YEAR(order_date) years,
         COUNT(DISTINCT customer) 'number of customers'
  FROM clean_data
  WHERE order_status = 'Order Finished'
+ GROUP BY 1;
+```
+</br>
+The calculations regarding the clients’ variety do not integrate the reproduction value for each year. That is the reason why DISTINCT is used in this case to get the special price of the clients number.
+</br>
+</br>
+Output:
+<img align="center" width="750" height="450" src="https://github.com/Shihab27/DQLAB_Sales_Performance_Analysis/blob/main/output5.png">
+</br>
+Fig: Number of customers by year
+</br>
+</br>
+The diversity of clients is not changing significantly overall. However, there was no drastic drop in customers, which is a welcome relief. The number of clients seems to fluctuate around the 580–590 mark.
+</br>
+</br>
+6. New Customer Over the Years
+</br>
+
+```
+SELECT YEAR(first_order) years,
+        COUNT(customer) 'new customer'
+ FROM(
+        SELECT customers,
+               MIN(order_date) first_order
+        FROM clean_data
+        WHERE order_status = 'Order Finished'
+        GROUP BY 1) first
  GROUP BY 1;
 ```
